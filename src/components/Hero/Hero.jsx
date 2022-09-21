@@ -4,7 +4,7 @@ import tedxImg from './images/x-art.svg';
 const Hero = () => {
     return(
         <main >
-            <div className="flex flex-col lg:flex-row bg-cover bg-[url('/home/kev/Documents/Coding/Completed-Projects/tedx-website/src/components/Hero/images/background.svg')] w-full h-full">
+            <div className="flex flex-col lg:flex-row bg-cover custom-img w-full h-full">
                 <div className='flex items-center justify-center lg:w-2/5 w-full my-16'>
                     <img src={tedxImg} alt="tedx-logo" />
                 </div>
